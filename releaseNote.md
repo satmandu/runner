@@ -1,5 +1,6 @@
 ## What's Changed
 
+- Bump version to active builds for arm with .Net 8.0
 - Adding Snapshot additional mapping tokens https://github.com/actions/runner/pull/3468
 - Create launch httpclient using the right handler and setting https://github.com/actions/runner/pull/3476
 - Fix missing default user-agent for jitconfig runner https://github.com/actions/runner/pull/3473
