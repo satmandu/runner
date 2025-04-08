@@ -52,7 +52,7 @@ namespace GitHub.Runner.Common.Tests.Listener
         [Trait("Category", "Runner")]
         [InlineData(null)]
         [InlineData("billingOwnerId")]
-        public async void DispatchesJobRequest(string billingOwnerId)
+        public async Task DispatchesJobRequest(string billingOwnerId)
         {
             //Arrange
             using (var hc = new TestHostContext(this))
